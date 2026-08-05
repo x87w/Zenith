@@ -100,10 +100,6 @@ GOOS=linux GOARCH=amd64 go build -o zenith main.go
 3. Commit your changes
 4. Push and open a Pull Request
 
-## License
-
-MIT License
-
 ## Support
 
 Open an [issue](https://github.com/x87w/Zenith/issues) on GitHub
