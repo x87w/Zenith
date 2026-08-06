@@ -1,21 +1,18 @@
-.DS_Store
-.AppleDouble
-.LSOverride
-._*
-bin/
-dist/
-*.exe
-*.exe?
-*.dll
-*.so
-*.dylib
-*.test
-*.out
-/zenith
+# binaries
+zenith
+
+# vm disks
+vms/
 *.qcow2
 *.img
 *.iso
-*.raw
-*.vmdk
-.env
+
+# logs
 *.log
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
