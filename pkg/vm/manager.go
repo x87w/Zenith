@@ -25,8 +25,8 @@ func New(cfg Config) *VM {
 
 func (v *VM) Start() error {
 	args := []string{
-		"-machine", "q35,accel=hvf",
-		"-cpu", "host",
+		"-machine", "q35,accel=tcg",
+		"-cpu", "max",
 		"-name", v.Config.Name,
 		"-m", v.Config.Memory,
 		"-smp", fmt.Sprintf("%d", v.Config.CPUs),
