@@ -17,4 +17,6 @@ func SetupRoutes(app *fiber.App) {
 	})
 
 	app.Post("/api/register", Register)
+
+	app.Post("/api/vms/create", CreateVM)
 }
